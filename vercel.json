@@ -3,6 +3,14 @@
         {
             "src": "/",
             "dest": "/api/users.js"
+        },
+        {
+            "src": "/users",
+            "methods": [
+                "POST",
+                "GET"
+            ],
+            "dest": "/api/users.js"
         }
     ]
 }
