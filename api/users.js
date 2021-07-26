@@ -7,6 +7,9 @@ module.exports = (req, res) => {
     } else {
         const { name, location } = req.body;
 
+        let name = name
+        let location = location
+
         res.send({ status: "User Created", name, location });
     }
 }
